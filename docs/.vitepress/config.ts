@@ -47,6 +47,14 @@ export default {
       AutoSidebar({
         path:"./docs"
       })
-    ]
+    ],
+    server: {
+       // 配置可以IP访问
+    host: '0.0.0.0',
+    // 本地服务的端口号
+    port: 8888,
+    // 启动时，自动在浏览器中打开应用程序。当该值为字符串时，它将被用作 URL 的路径名
+    open: true, // 是否自动打开浏览器
+    }
   },
 };
