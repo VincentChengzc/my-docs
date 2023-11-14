@@ -2,7 +2,7 @@
 
 1、安装
 
-    yarn add husky -D
+    pnpm/npm/yarn add husky -D
 
 2、添加配置
 
