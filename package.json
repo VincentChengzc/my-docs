@@ -1,4 +1,9 @@
 {
+  "name": "echo-note",
+  "description": "echo的个人笔记",
+  "author": "echo",
+  "private": true,
+  "version": "0.0.1",
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
