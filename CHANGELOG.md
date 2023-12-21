@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://gitee.com/zccforfun/note/compare/v0.0.2...v0.0.3) (2023-12-21)
+
+
+### 新功能、新特性
+
+* ✨chagelog 加入中文 ([8ffc70a](https://gitee.com/zccforfun/note/commit/8ffc70a85d4cd71bbfe1ecb8947cb8228f949302))
+
 ### 0.0.2 (2023-12-21)
 
 
