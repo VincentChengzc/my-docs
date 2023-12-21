@@ -18,5 +18,5 @@ npx husky add .husky/commit-msg 'npx --no-install commitlint --edit "$1"'
 3.添加 commitlint 校验
 npm/yarn/pnpm add @commitlint/cli -D
 
-4.添加 commitlint的 常用配置 (可不装)
+4.添加 commitlint的 常用配置
 npm/yarn/pnpm add @commitlint/config-conventional -D
