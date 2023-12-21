@@ -2,4 +2,9 @@
 
 1、安装
 
-    pnpm/npm/yarn add standard-version -D
+npm/yarn/pnpm add standard-version -D
+
+2.在 package.json 中编写响应的脚本
+"scripts": {
+  "release": "standard-version"
+}
