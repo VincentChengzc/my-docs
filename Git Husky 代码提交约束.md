@@ -2,7 +2,7 @@
 
 1、安装
 
-pnpm/npm/yarn add husky -D
+npm/yarn/pnpm add husky -D
 
 2、添加配置
 
@@ -15,5 +15,8 @@ npx husky add .husky/pre-commit
 2.3 添加 commit-msg hook
 npx husky add .husky/commit-msg 'npx --no-install commitlint --edit "$1"'
 
-3.commitlint 校验
-pnpm/npm/yarn add @commitlint/cli -D
+3.添加 commitlint 校验
+npm/yarn/pnpm add @commitlint/cli -D
+
+4.添加 commitlint的 常用配置 (可不装)
+npm/yarn/pnpm add @commitlint/config-conventional -D
