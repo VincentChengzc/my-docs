@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://gitee.com/zccforfun/note/compare/v0.0.3...v0.0.4) (2023-12-22)
+
+
+### 文档修改
+
+* 📝standard-version标准化发版流程文档修改 ([e3f5bb4](https://gitee.com/zccforfun/note/commit/e3f5bb4e1d8b5e45e3c7588b3765f4f3f60f5fdc))
+
+
+### 新功能、新特性
+
+* ✨增加git命令行文档 ([538c439](https://gitee.com/zccforfun/note/commit/538c43938e966b67859b9763978da7e2756d88c7))
+
 ### [0.0.3](https://gitee.com/zccforfun/note/compare/v0.0.2...v0.0.3) (2023-12-21)
 
 
