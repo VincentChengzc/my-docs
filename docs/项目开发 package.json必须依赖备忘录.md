@@ -1,6 +1,6 @@
 # 项目开发 package.json必须依赖备忘录
 
-## 代码提交规范
+### 代码提交规范
 
     "devDependencies": {
       "husky": "^8.0.3", // 提交前拦截
@@ -11,7 +11,7 @@
       "prepare": "husky install",
     },
 
-## 发版本规范
+### 发版本规范
 
     "devDependencies": {
       "standard-version": "^9.5.0", // 发版规范
@@ -29,6 +29,7 @@
           "rollup-plugin-visualizer": "^5.9.2", // 构建后代码分析
           "terser": "^5.26.0", //压缩混淆代码
           "vite-plugin-pwa": "^0.17.4", // 渐进式pwa （可选）
+          "@vitejs/plugin-react": "^4.0.3", // React 相关 （可选）
       }
       "scripts": {
         "dev": "vite --mode dev",
@@ -36,6 +37,10 @@
         "build": "vite build",
         "preview": "vite preview",
       },
+
+### 代码格式化规范
+
+### typescript 规范
 
 ### 1.react 相关
 
@@ -49,3 +54,14 @@
       }
 
 ### 2.vue 相关
+
+### 3.请求
+
+      "dependencies": {
+        "axios": "^1.3.4",
+      },
+
+### 4.UI相关
+
+      "dependencies": {
+      },
