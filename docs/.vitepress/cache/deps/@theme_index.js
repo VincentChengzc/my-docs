@@ -4,52 +4,51 @@ import {
 import {
   computed,
   ref,
-  shallowRef,
   watch
 } from "./chunk-NBRE5NXK.js";
 
-// node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/index.js
-import "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
+// node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/index.js
+import "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
 
-// node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/without-fonts.js
-import "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/styles/vars.css";
-import "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/styles/base.css";
-import "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/styles/utils.css";
-import "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/styles/components/custom-block.css";
-import "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code.css";
-import "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code-group.css";
-import "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/styles/components/vp-doc.css";
-import "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/styles/components/vp-sponsor.css";
-import VPBadge from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
-import Layout from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/Layout.vue";
-import { default as default2 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPImage.vue";
-import { default as default3 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPButton.vue";
-import { default as default4 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
-import { default as default5 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
-import { default as default6 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
-import { default as default7 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
-import { default as default8 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPSponsors.vue";
-import { default as default9 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPTeamPage.vue";
-import { default as default10 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
-import { default as default11 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
-import { default as default12 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
+// node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/without-fonts.js
+import "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/styles/vars.css";
+import "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/styles/base.css";
+import "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/styles/utils.css";
+import "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/styles/components/custom-block.css";
+import "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code.css";
+import "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code-group.css";
+import "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/styles/components/vp-doc.css";
+import "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/styles/components/vp-sponsor.css";
+import VPBadge from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
+import Layout from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/Layout.vue";
+import { default as default2 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPImage.vue";
+import { default as default3 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPButton.vue";
+import { default as default4 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
+import { default as default5 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
+import { default as default6 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
+import { default as default7 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
+import { default as default8 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPSponsors.vue";
+import { default as default9 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPTeamPage.vue";
+import { default as default10 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
+import { default as default11 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
+import { default as default12 } from "D:/临时note/node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
 
-// node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/shared.js
+// node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/shared.js
 var inBrowser = typeof document !== "undefined";
 
-// node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/support/utils.js
+// node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/support/utils.js
 import { withBase } from "vitepress";
 
-// node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/composables/data.js
+// node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/composables/data.js
 import { useData as useData$ } from "vitepress";
 var useData = useData$;
 
-// node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/support/utils.js
+// node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/support/utils.js
 function ensureStartingSlash(path) {
   return /^\//.test(path) ? path : `/${path}`;
 }
 
-// node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/support/sidebar.js
+// node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/support/sidebar.js
 function getSidebar(_sidebar, path) {
   if (Array.isArray(_sidebar))
     return addBase(_sidebar);
@@ -92,7 +91,7 @@ function addBase(items, _base) {
   });
 }
 
-// node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/composables/sidebar.js
+// node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/composables/sidebar.js
 function useSidebar() {
   const { frontmatter, page, theme: theme2 } = useData();
   const is960 = useMediaQuery("(min-width: 960px)");
@@ -155,83 +154,7 @@ if (inBrowser) {
   });
 }
 
-// node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/composables/local-nav.js
-import { onContentUpdated } from "vitepress";
-import {} from "vitepress/theme";
-
-// node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/composables/outline.js
-function getHeaders(range) {
-  const headers = [
-    ...document.querySelectorAll(".VPDoc :where(h1,h2,h3,h4,h5,h6)")
-  ].filter((el) => el.id && el.hasChildNodes()).map((el) => {
-    const level = Number(el.tagName[1]);
-    return {
-      title: serializeHeader(el),
-      link: "#" + el.id,
-      level
-    };
-  });
-  return resolveHeaders(headers, range);
-}
-function serializeHeader(h) {
-  let ret = "";
-  for (const node of h.childNodes) {
-    if (node.nodeType === 1) {
-      if (node.classList.contains("VPBadge") || node.classList.contains("header-anchor") || node.classList.contains("ignore-header")) {
-        continue;
-      }
-      ret += node.textContent;
-    } else if (node.nodeType === 3) {
-      ret += node.textContent;
-    }
-  }
-  return ret.trim();
-}
-function resolveHeaders(headers, range) {
-  if (range === false) {
-    return [];
-  }
-  const levelsRange = (typeof range === "object" && !Array.isArray(range) ? range.level : range) || 2;
-  const [high, low] = typeof levelsRange === "number" ? [levelsRange, levelsRange] : levelsRange === "deep" ? [2, 6] : levelsRange;
-  headers = headers.filter((h) => h.level >= high && h.level <= low);
-  const ret = [];
-  outer:
-    for (let i = 0; i < headers.length; i++) {
-      const cur = headers[i];
-      if (i === 0) {
-        ret.push(cur);
-      } else {
-        for (let j = i - 1; j >= 0; j--) {
-          const prev = headers[j];
-          if (prev.level < cur.level) {
-            ;
-            (prev.children || (prev.children = [])).push(cur);
-            continue outer;
-          }
-        }
-        ret.push(cur);
-      }
-    }
-  return ret;
-}
-
-// node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/composables/local-nav.js
-function useLocalNav() {
-  const { theme: theme2, frontmatter } = useData();
-  const headers = shallowRef([]);
-  const hasLocalNav = computed(() => {
-    return headers.value.length > 0;
-  });
-  onContentUpdated(() => {
-    headers.value = getHeaders(frontmatter.value.outline ?? theme2.value.outline);
-  });
-  return {
-    headers,
-    hasLocalNav
-  };
-}
-
-// node_modules/.pnpm/vitepress@1.0.0-rc.34_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/without-fonts.js
+// node_modules/.pnpm/vitepress@1.0.0-rc.33_@algolia+client-search@4.22.0_@types+node@18.19.3_search-insights@2.13.0_typescript@5.3.3/node_modules/vitepress/dist/client/theme-default/without-fonts.js
 var theme = {
   Layout,
   enhanceApp: ({ app }) => {
@@ -252,7 +175,6 @@ export {
   default11 as VPTeamPageSection,
   default10 as VPTeamPageTitle,
   without_fonts_default as default,
-  useLocalNav,
   useSidebar
 };
 //# sourceMappingURL=@theme_index.js.map

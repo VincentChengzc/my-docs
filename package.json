@@ -8,10 +8,11 @@
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
     "husky": "^8.0.3",
-    "standard-version": "^9.5.0"
+    "standard-version": "^9.5.0",
+    "vite-plugin-vitepress-auto-sidebar": "^1.6.2"
   },
   "scripts": {
-    "docs:serve": "vitepress dev docs --port 8888",
+    "docs:dev": "vitepress dev docs --port 8888",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs --port 8888",
     "prepare": "husky install",
@@ -70,6 +71,6 @@
     ]
   },
   "dependencies": {
-    "vitepress": "1.0.0-rc.34"
+    "vitepress": "1.0.0-rc.33"
   }
 }

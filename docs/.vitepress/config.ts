@@ -1,3 +1,4 @@
+import AutoSidebar from 'vite-plugin-vitepress-auto-sidebar';
 export default {
   title: ".Cheng的文档小站", // 网页左上角标题
   description: "记录一些笔记.",
@@ -13,31 +14,19 @@ export default {
       { text: "闲谈", link: "/chat/home" },
     ],
     // 侧边栏
-    sidebar: {
-      "/blog/": [
-        { text: "简述", link: "/blog/home" },
-        {
-          text: "Taro CI持续集成框架的配置与使用",
-          link: "/blog/TaroCI持续集成框架的配置与使用/page",
-        },
-        { text: "如何搭建VitePress", link: "/blog/如何搭建VitePress/page" },
-        {
-          text: "使用Github Pages部署静态页面",
-          link: "/blog/使用GithubPages部署静态页面/page",
-        },
-      ],
-      "/essay/": [
-        { text: "简述", link: "/essay/home" },
-        {
-          text: "如何快速完成Microsoft Rewards积分任务",
-          link: "/essay/如何快速完成MicrosoftRewards积分任务/page",
-        },
-      ],
-      "/chat/": [
-        { text: "简述", link: "/chat/home" },
-        { text: "书架", link: "/chat/书架/page" },
-      ],
-    },
+    sidebar: [
+      {
+        text: "文档",
+        items: [
+          { text: "git命令行备忘", link: "/blog/git命令行备忘" },
+          { text: "Getting Started", link: "/getting-started" },
+        ],
+      },
+      {
+        text: "留白",
+        items: [{ text: "暂无", link: "/暂无" }],
+      },
+    ],
     // 页脚
     footer: {
       message: "Released under the MIT License.",
@@ -51,5 +40,11 @@ export default {
     lastUpdatedText: "最后更新时间",
     // 右上角社交链接
     socialLinks: [{ icon: "github", link: "https://github.com/LibraHeresy" }],
+  },
+  vite: {
+    plugins: [
+      // add plugin
+      AutoSidebar()
+    ]
   },
 };
