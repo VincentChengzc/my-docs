@@ -44,7 +44,9 @@ export default {
   vite: {
     plugins: [
       // add plugin
-      AutoSidebar()
+      AutoSidebar({
+        path:"./docs"
+      })
     ]
   },
 };
