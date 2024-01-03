@@ -13,6 +13,7 @@
   "scripts": {
     "docs:serve": "vitepress dev docs --port 8888",
     "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs --port 8888",
     "prepare": "husky install",
     "release": "standard-version"
   },
