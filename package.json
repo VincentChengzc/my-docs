@@ -11,6 +11,8 @@
     "standard-version": "^9.5.0"
   },
   "scripts": {
+    "docs:serve": "vitepress dev docs --port 8888",
+    "docs:build": "vitepress build docs",
     "prepare": "husky install",
     "release": "standard-version"
   },
@@ -65,5 +67,8 @@
         "section": "发布新版本"
       }
     ]
+  },
+  "dependencies": {
+    "vitepress": "1.0.0-rc.34"
   }
 }
