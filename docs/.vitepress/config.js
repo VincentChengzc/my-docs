@@ -1,7 +1,7 @@
 export default {
   title: ".Cheng的文档小站", // 网页左上角标题
   description: "记录一些笔记.",
-  titleTemplate: "天秤的异端", // 页签右标题
+  titleTemplate: "余生很短", // 页签右标题
   base: "/vite-press/",
   lastUpdated: true, // 最后更新时间
   themeConfig: {
@@ -41,7 +41,7 @@ export default {
     // 页脚
     footer: {
       message: "Released under the MIT License.",
-      copyright: "Copyright © 2023-present Echo.Cheng",
+      copyright: "Copyright © 2024-present Echo.Cheng",
     },
     // 搜索框
     search: {
