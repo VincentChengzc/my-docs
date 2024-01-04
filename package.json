@@ -7,9 +7,9 @@
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
+    "@w3ctech-editorial-department/vitepress-auto-configure-nav-sidebar": "^1.0.0",
     "husky": "^8.0.3",
-    "standard-version": "^9.5.0",
-    "vite-plugin-vitepress-auto-sidebar": "^1.6.2"
+    "standard-version": "^9.5.0"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
@@ -71,6 +71,6 @@
     ]
   },
   "dependencies": {
-    "vitepress": "1.0.0-rc.33"
+    "vitepress": "1.0.0-rc.34"
   }
 }
