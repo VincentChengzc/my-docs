@@ -34,7 +34,7 @@ export default {
       // add plugin
     ],
     server: {
-       // 配置可以IP访问
+    // 配置可以IP访问
     host: '0.0.0.0',
     // 本地服务的端口号
     port: 8888,
