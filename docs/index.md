@@ -5,6 +5,9 @@ hero:
   name: Echo
   text: 记录一些笔记..
   tagline: Note...
+  image:
+    src: https://avatars.githubusercontent.com/u/10862886?v=4
+    alt: Kitty
   actions:
     - theme: brand
       text: Github About Me
