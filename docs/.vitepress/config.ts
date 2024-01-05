@@ -7,7 +7,7 @@ const { nav, sidebar } = AutoConfigureNavSidebarPlugin({
   ignoreFolders: ['.vuepress'],
 })
 export default {
-  title: "达拉崩叭叭的文档小站", // 网页左上角标题
+  title: "Echo's文档小站", // 网页左上角标题
   description: "记录一些笔记.",
   titleTemplate: "余生很短", // 页签右标题
   base: "/vite-press/",
@@ -27,7 +27,7 @@ export default {
     // 自定义更新时间头
     lastUpdatedText: "最后更新时间",
     // 右上角社交链接
-    socialLinks: [{ icon: "github", link: "https://github.com/LibraHeresy" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/VincentChengzc" }],
   },
   vite: {
     plugins: [
