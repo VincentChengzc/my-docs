@@ -10,7 +10,7 @@ export default {
   title: "Echo's文档小站", // 网页左上角标题
   description: "记录一些笔记.",
   titleTemplate: "余生很短", // 页签右标题
-  base: "/vite-press/",
+  base: "/my-docs/",
   lastUpdated: true, // 最后更新时间
   themeConfig: {
     nav,
