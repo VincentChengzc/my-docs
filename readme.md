@@ -1,7 +1,7 @@
 ### 文档编写运行
 
 ```
-docs:dev": "vitepress dev docs
+npm/yarn/pnpm docs:dev
 ```
 
 文档编写完直接构建发布
@@ -9,17 +9,17 @@ docs:dev": "vitepress dev docs
 ### 文档构建
 
 ```
-docs:build": "vitepress build docs
+npm/yarn/pnpm docs:build
 ```
 
 ### 文档发布部署
 
 ```
-docs:deploy
+npm/yarn/pnpm docs:deploy
 ```
 
-一般写完文档保存后直接运行
+一般写完文档保存后直接运行以下脚本就可以直接发布，不需要commit
 
 ```
-pnpm run docs:deploy
+npm/yarn/pnpm run docs:deploy
 ```
