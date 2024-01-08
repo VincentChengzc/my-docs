@@ -10,7 +10,7 @@
 
 2.turborepo 多库处理
 
-3.react 模版条件判断
+3.react 模版条件判断 zc-build-cli脚本完善编写
 
 4.简历出一份markdown版本
 
