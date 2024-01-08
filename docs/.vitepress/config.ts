@@ -15,11 +15,14 @@ export default {
   themeConfig: {
     nav,
     sidebar,
-    // algolia: { // algolia 搜索服务 与 内置 search 可二选一
-    //   appId: 'LPTNA0E8HM',
-    //   apiKey: '8f1b68dfab6b0320adef728a1c3a77cc',
-    //   indexName: 'themusecatcher_front-end'
-    // },
+    algolia: {
+      appId: 'E4387NFLK9',
+      apiKey: '4806c85f01653e30dc0bd9b53c7d3e03',
+      indexName: 'ehcoDocGithub'
+      // searchParameters: {
+      //     facetFilters: ['tags:guide,api']
+      // }
+    },
     // 页脚
     footer: {
       message: "Released under the MIT License.",
