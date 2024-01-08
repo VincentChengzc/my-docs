@@ -13,8 +13,8 @@ hero:
       text: Github About Me
       link: https://github.com/VincentChengzc
     - theme: alt
-      text: Blog
-      link: /博客/
+      text: Todos
+      link: /todos
 
 features:
   - icon: ⚡️
