@@ -1,5 +1,7 @@
 # node执行ts
 
+安装全局依赖包
+
 ```shell
 npm install ts-node -g
 ```
