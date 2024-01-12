@@ -16,9 +16,9 @@ export default {
     nav,
     sidebar,
     algolia: {
-      appId: 'E4387NFLK9',
-      apiKey: '4806c85f01653e30dc0bd9b53c7d3e03',
-      indexName: 'ehcoDocGithub'
+      appId: 'KMOFRUJNBO',
+      apiKey: '2a59e200ea8b8a0f7ec21f58ecbb16b3',
+      indexName: 'vincentchengzc'
       // searchParameters: {
       //     facetFilters: ['tags:guide,api']
       // }
