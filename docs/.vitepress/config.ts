@@ -1,10 +1,11 @@
 import AutoConfigureNavSidebarPlugin from '@w3ctech-editorial-department/vitepress-auto-configure-nav-sidebar'
 const { nav, sidebar } = AutoConfigureNavSidebarPlugin({
   collapsed: true,
-  showNavIcon: false,
+  showNavIcon: true,
   singleLayerNav: true,
   showSidebarIcon: true,
-  ignoreFolders: ['.vuepress'],
+  ignoreFolders: ['.vuepress','image','隐藏'], // 需要排除的目录
+  ignoreFiles: [],// 需要排除的文件
 })
 export default {
   title: "Echo's文档小站", // 网页左上角标题
