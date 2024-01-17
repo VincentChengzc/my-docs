@@ -17,10 +17,10 @@ git commit -m 'docs: 📝文档更新'
 # 部署到 https://<username>.github.io/<repo>
 git push -f https://github.com/VincentChengzc/my-docs.git main:github-pages
 
-# 提交所有代码到github
-cd ../../../
-git add .
-git commit -m 'docs: 📝文档更新'
-git push
+# # 提交所有代码到github
+# cd ../../../
+# git add .
+# git commit -m 'docs: 📝文档更新'
+# git push
 
 
