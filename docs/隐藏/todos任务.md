@@ -16,7 +16,10 @@
 
 5.面试markdown目录
 
-## Life.
+6.eventBus 写笔记里，加代码片段
 
+7.把usehook 写笔记里，加代码片段
+
+## Life.
 
 重新买新的了
